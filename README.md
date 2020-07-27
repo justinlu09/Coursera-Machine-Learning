@@ -8,7 +8,7 @@ Octave/MATLAB coding assignments covering such topics as
   <li> support vector machines </li>
 </ul>
 
-Coursera - Machine Learning Course<br>
+Machine Learning on Coursera <br>
 July-August 2020
     
   
