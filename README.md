@@ -6,6 +6,8 @@ Octave/MATLAB coding assignments covering such topics as
   <li> logistic regression </li>
   <li> neural networks </li>
   <li> support vector machines </li>
+  <li> k-means clustering </li>
+  <li> dimensionality reduction (PCA) </li>
 </ul>
 
 Machine Learning on Coursera (https://www.coursera.org/learn/machine-learning/) <br>
