@@ -11,6 +11,6 @@ Octave/MATLAB coding assignments covering such topics as
 </ul>
 
 Machine Learning on Coursera (https://www.coursera.org/learn/machine-learning/) <br>
-July-August 2020
+June-August 2020
     
   
