@@ -8,7 +8,7 @@ Octave/MATLAB coding assignments covering such topics as
   <li> support vector machines </li>
   <li> k-means clustering </li>
   <li> dimensionality reduction (PCA) </li>
-  <li> anamoly detection </li>
+  <li> anomaly detection </li>
   <li> recommender systems </li>
 </ul>
 
