@@ -23,11 +23,28 @@ sigma = 0.3;
 %        mean(double(predictions ~= yval))
 %
 
+steps = [0.01, 0.03, 0.1, 0.3, 1, 3, 10, 30];
 
+poss = [];
 
+for c = 1:length(steps)
+  for sigma = 1:length(steps)
+    poss_c = steps(c);
+    poss_sigma = steps(sigma);
+    
+    svm = svmTrain(X, y, poss_c, @(x1, x2) gaussianKernel(x1, x2, poss_sigma));
+    preds = svmPredict(svm, Xval);
+    
+    preds_err = mean(double(preds ~= yval));
+    
+    poss = [poss; poss_c, poss_sigma, preds_err];
+  endfor
+endfor
 
+[min_err, min_ind] = min(poss(:,3));
 
-
+C = poss(min_ind, 1);
+sigma = poss(min_ind, 2);
 
 % =========================================================================
 
